@@ -1,0 +1,202 @@
+.container {
+  width: 100vw;
+}
+
+.navbar {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+
+.navbar img {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 2rem;
+}
+
+.navbar span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-shadow: 1px 1.1px rgb(195, 7, 7);
+}
+
+.navbar button {
+  height: 60%;
+  width: 8%;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: blue;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+
+.body {
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar1conatiner {
+  height: 95%;
+  width: 30%;
+  border-radius: 0.5rem;
+  overflow: scroll;
+  box-shadow: rgba(56, 56, 222, 0.68) 0px -4px 0px,
+    rgba(11, 11, 221, 0.813) 0px 0px 2px, rgba(37, 37, 188, 0.804) 0px 4px 0px;
+}
+
+.sidebar1conatiner::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar2conatiner{
+  height: 95%;
+  width: 65%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(2, 2, 92, 0.68) 0px -2px 0px,
+    rgba(2, 2, 92, 0.813) 0px 0px 2px, rgba(6, 6, 104, 0.804) 0px 2px 0px;
+}
+.sidebar2conatinerinsidepart {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  color: rgb(79, 79, 79);
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  overflow: scroll;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+
+.sidebar2conatinerinsidepart img{
+
+  width: 95%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  
+}
+
+.sidebar2conatinerinsidepart::-webkit-scrollbar {
+  display: none;
+}
+
+.questionscard {
+  height: auto;
+  margin: auto;
+  width: 95%;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  box-shadow: rgba(125, 124, 124, 0.25) 0px 24px 44px,
+    rgba(114, 114, 114, 0.22) 0px 10px 10px;
+  padding: 1rem 0rem;
+}
+
+
+.questionscard p {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: rgb(112, 17, 202);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.questionscard h4 {
+  padding: 0rem 1rem;
+  font-size: 1.1rem;
+  color: rgb(63, 63, 63);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menusidebarcontainer {
+  position: fixed;
+  top: 13%;
+  left: 2%;
+  height: 85%;
+  width: 20%;
+  background-color: rgb(233, 152, 255);
+  border-radius: 0.5rem;
+  box-shadow: rgba(125, 124, 124, 0.25) 0px 10px 20px,
+    rgba(114, 114, 114, 0.22) 0px 10px 10px;
+}
+.menusidebarcontainer p {
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: blue;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.menusidebarcontainer img {
+  position: absolute;
+  top:0;
+  right:2%;
+  height: 2rem;
+  width: 2rem;
+
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.menusidebarcontainer1 {
+  display: none;
+}
+
+.topices{
+  height: 5rem;
+  width: 95%;
+  margin: auto;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232, 232, 239, 0.83);
+  box-shadow:-6px 0px 0px 1px blue;
+}
+
+.topices p{
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color:blue;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.topices span{
+  font-size: 2rem;
+  color: rgb(49, 40, 40);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.relatedtopic{
+  height: 5rem;
+  width: 95%;
+  margin: auto;
+  border-radius: .5rem;
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: .2rem;
+  color: rgb(17, 17, 18);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(230, 226, 226, 0.829);
+  box-shadow:-6px 0px 0px 1px blue;
+}
+

@@ -1,0 +1,8 @@
+.herosectioncontainer{
+    height: 30rem;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
